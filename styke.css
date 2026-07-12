@@ -90,6 +90,9 @@ img {
   border: 0.5px solid #ddd7d7;
   border-radius: 8px;
 }
+.speaker-image {
+  border-radius: 10px 10px 0px 0px;
+}
 
 .speaker-card h5 {
   padding: 10px 20px;
@@ -104,4 +107,87 @@ img {
 .speaker-card p {
   padding: 10px 20px;
   color: #575757;
+}
+
+/* Pricing Section style */
+
+.pricing-title {
+  text-align: center;
+}
+
+.pricing-title h2 {
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  color: #0d1b2a;
+}
+
+.pricing-title p {
+  font-size: 14px;
+  color: #0d1b2a;
+}
+
+.pricing-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.pricing-card-one,
+.pricing-card-three,
+.pricing-card-three {
+  border: solid 1px #ddd7d7;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.pricing-card-one-title h5 {
+  font-size: 8px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.pricing-card-one-title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.pricing-card-one-title p {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.pricing-card-list {
+  padding: 16px;
+  margin-top: 20px;
+  border-top: solid 1px #eae5e5;
+}
+
+.pricing-card-list ul li {
+  margin-top: 7px;
+  color: #333333;
+  font-size: 12px;
+}
+
+/* button */
+
+.get-standard {
+  width: 100%;
+  border: solid 0.5px #2563eb;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 8px;
+  color: #1d4ed8;
+}
+
+.get-pro {
+  width: 100%;
+  border: solid 0.5px #2563eb;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 8px;
+  color: #1d4ed8;
 }
