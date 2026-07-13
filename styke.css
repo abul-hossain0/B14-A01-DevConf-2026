@@ -249,7 +249,7 @@ img {
 .faq {
   margin-top: 60px;
   padding: 100px 0;
-  background: #0f172a;
+  background: #011515;
 }
 
 .section-header {
@@ -309,4 +309,65 @@ img {
   padding: 0 25px 22px;
   color: #cbd5e1;
   line-height: 1.8;
+}
+
+/* footer section  */
+
+.footer {
+  background: #0f172a;
+  padding: 70px 0 30px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-social a {
+  width: 48px;
+  height: 48px;
+  background: #1e293b;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  background: #6366f1;
+  transform: translateY(-5px);
+}
+
+.footer hr {
+  border: none;
+  height: 1px;
+  background: #334155;
+  margin: 45px 0 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #94a3b8;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
